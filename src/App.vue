@@ -1,10 +1,6 @@
 <script setup>
-
+import ParentComponent from './Component/ParentComponent.vue';
 </script>
-
 <template>
-<h1 class="text-4xl text-bold text-center">Hello Vue + Tailwind</h1>
+<ParentComponent/>
 </template>
-
-<style>
-</style>
